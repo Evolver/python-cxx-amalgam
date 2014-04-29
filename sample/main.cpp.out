@@ -1,0 +1,17 @@
+
+
+
+#define FIRST_INCLUDED
+
+
+#define SECOND_INCLUDED
+#include <iostream> /* not to be expanded */
+
+int main( int, char** )
+{
+    std::cout << "Hello, World!" << std::endl;
+
+
+#define THIRD_INCLUDED
+    return 0;
+}

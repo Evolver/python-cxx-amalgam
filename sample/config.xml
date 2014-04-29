@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amalgam>
+    <include match="^first" search="includes1/" />
+    <include match="^second/" search="includes2/" />
+    <include match="^third" search="includes3/" />
+</amalgam>
